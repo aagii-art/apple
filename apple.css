@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+.header {
+  gap: 24px;
+  font: 12px inter, serif;
+}
+.header-apple {
+  height: 44px;
+  width: 30px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-icon {
+  height: ;
+  gap: 24px;
+}
+.header-icon div {
+}
