@@ -15,7 +15,7 @@
   align-items: center;
 }
 .header-icon {
-  height: ;
+  height: ;`
   gap: 24px;
 }
 .menu{
@@ -31,7 +31,8 @@ margin-top: 10px;
 }
 .iphone-pro{
   
-}
+} 
+a
 
 @media screen (max-width: 768px) {
   .menu{
