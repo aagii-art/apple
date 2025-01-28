@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: "inter", serif;
 }
 .header {
   gap: 24px;
@@ -15,31 +16,152 @@
   align-items: center;
 }
 .header-icon {
-  height: ;`
   gap: 24px;
 }
 .menu{
   display: none;
 }
 .iphone-pro{
-background: url(./zurag/Background.png)  ;
-background-position: center;
-background-size: cover;
-height: 650px;
-width: 100vw;
-margin-top: 10px;
+  background: url(./zurag/Background.png)  ;
+  background-position: center;
+  background-size: cover;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-.iphone-pro{
-  
-} 
-a
+.iphone-pro h2{
+font-size: 52px;
+font-family: inter, serif;
+font-weight: 600;
+padding-bottom: 15px;
+}
 
-@media screen (max-width: 768px) {
+.iphone-pro p{
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+
+.child{
+  height: 44px;
+  width: 207px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 380px;
+}
+
+.child1{
+  padding: 10px;
+background-color: blue;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 40px;
+}
+.child2{
+  display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 40px;
+border: 1px solid blue;
+  color:blue;
+  padding: 10px 20px;
+}  
+
+.iphone16{
+  background: url(.//zurag/1.png);
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat ;
+  height: 692px;
+  width: 100vw;
+  color: white;
+}
+.iphone16-header{
+ margin-top: 10px;
+}
+
+.iphone16-header h2{
+  padding-bottom: 10px ; 
+   font-size: 52px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.iphone16-header p{
+  text-align: center;
+  font-size: 30px;
+}
+
+.child16{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  margin-right: 10px;
+  
+}
+
+
+
+@media only screen and (max-width: 768px) {
   .menu{
-  display: block;
+    display: block;
+    margin-left: auto;
   }
   .navigation{
     display: none;
   }
-  
+  .search{
+    margin-left: auto;
+  }
+  .header-text{
+    text-align: center;
+  }
+  .header-icon{
+    margin-left: auto;
+  }
+  .iphone-pro{
+    background: url(./zurag/Figure.png);
+    background-position: center;
+  }
+  .iphone16{
+    background: ur;
+  }
+}
+
+@media only screen and (max-width: 481px){
+.iphone-pro{
+  background: url(./zurag/Figure1.png);
+  background-position: center;   
+  background-repeat: no-repeat;
+                                                          ;
+}
+.iphone-pro h2{
+  font-size: 30px;
+  transform: translate(0px, 300px);
+}
+.iphone-pro p{
+  font-size: 20px;
+  transform: translate(0px, 300px);
+
+}
+.child1{
+  transform: translate(0px, 300px);
+  padding: 5px;
+}
+.child2{
+  transform: translate(0px, 300px);
+  padding: 5px;
+ 
+}
 }
