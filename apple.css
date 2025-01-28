@@ -18,5 +18,27 @@
   height: ;
   gap: 24px;
 }
-.header-icon div {
+.menu{
+  display: none;
+}
+.iphone-pro{
+background: url(./zurag/Background.png)  ;
+background-position: center;
+background-size: cover;
+height: 650px;
+width: 100vw;
+margin-top: 10px;
+}
+.iphone-pro{
+  
+}
+
+@media screen (max-width: 768px) {
+  .menu{
+  display: block;
+  }
+  .navigation{
+    display: none;
+  }
+  
 }
