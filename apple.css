@@ -1,14 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
-  margin: 0;
-  font-family: "inter", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", serif;
 }
+
 .header {
-  gap: 24px;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
   font: 12px inter, serif;
+  position: fixed;
+  background-color: white;
+  width: 100vw;
 }
 .header-apple {
   height: 44px;
   width: 30px;
+}
+.navigation{
+  margin-top: 15px;
+  column-gap: 10px;
+  display: flex;
+}
+
+.header-nav{
+  text-decoration: none;
+  color: black;  
+
+}
+
+.header-text{
+  text-align: center;
+  padding-top: 60px;
 }
 .center {
   display: flex;
@@ -56,24 +81,6 @@ padding-bottom: 15px;
   margin-bottom: 380px;
 }
 
-.child1{
-  padding: 10px;
-background-color: blue;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 40px;
-}
-.child2{
-  display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 40px;
-border: 1px solid blue;
-  color:blue;
-  padding: 10px 20px;
-}  
 
 .iphone16{
   background: url(.//zurag/1.png);
@@ -81,6 +88,7 @@ border: 1px solid blue;
   justify-content: center;
   background-position: center;
   background-repeat: no-repeat ;
+  
   height: 692px;
   width: 100vw;
   color: white;
@@ -101,7 +109,9 @@ border: 1px solid blue;
   text-align: center;
   font-size: 30px;
 }
-
+.iphone16 p{
+  padding-bottom: 10px;
+}
 .child16{
   display: flex;
   justify-content: center;
@@ -111,9 +121,115 @@ border: 1px solid blue;
   
 }
 
+.gift{
+  background: url(./zurag/Figure5.png);
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  height: 692px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
+.pad{
+  display: none;
+  background: url(./zurag/pad1.png);
+  background-position: center;
+  width: 100vw;
+  text-align: center;
+  
+}
+.pad p{
+  padding: 10px 0px;
+}
+ .learn-more{
+  background-color: blue;
+  padding: 5px;
+  color: white;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+.padchild p{
+  padding-top: 500px;
+  background-image: linear-gradient(to right, blue, red);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+.buy{
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+.gift h2{
+  font-size: 52px;
+  font-weight: 600;
+}
+.gift p{
+ font-size: large;
+ font-weight: 400;
+}
+.giftbutton {
+  background-color: blue;
+  padding: 5px;
+  font-size: medium;
+}
+.products{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 580px);
+  gap: 10px;
+  margin-top: 10px;
+
+}
+
+:root{
+  --image-url: url("./zurag/pad.png");
+}
+
+.product1{
+  background-image: var(--image-url);
+  background-position: center;
+}
+.product2{
+  background-position: center;
+  --image-url: url("./zurag/huuhen.png");
+  background-image: var(--image-url);
+}
+.product3{
+  background-position: center;
+  --image-url: url("./zurag/tsag.png");
+  background-image: var(--image-url);
+}
+.product4{
+  background-position: center;
+  --image-url: url("./zurag/notebook.png");
+  background-image: var(--image-url);
+}
+.product5{
+  background-position: center;
+  --image-url: url("./zurag/phone.png");
+
+  background-image: var(--image-url);
+}
+.product6{
+  background-position: center;
+  --image-url: url("./zurag//card.png");
+ 
+  background-image: var(--image-url);
+}
 
 @media only screen and (max-width: 768px) {
+  
+  .pad{
+    display: block;
+  }
   .menu{
     display: block;
     margin-left: auto;
@@ -135,33 +251,86 @@ border: 1px solid blue;
     background-position: center;
   }
   .iphone16{
-    background: ur;
+    background: url(./zurag/Figure2.png)
+  }
+  .gift{
+    display: none;
+  }
+  .product1{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    grid-template-columns: 1fr;
+    --image-url:url("./zurag/Figure6.png");
+  }
+  .product2{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    grid-template-columns: 1fr;
+    --image-url:url("./zurag/padtsag.png");
+  }
+  .product3{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    grid-template-columns: 1fr;
+    --image-url:url("./zurag//padnote.png");
+  }
+  .product4{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    grid-template-columns: 1fr;
+    --image-url:url("./zurag//padohin.png");
+  }
+  .product5{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    grid-template-columns: 1fr;
+    --image-url:url("./zurag//pad5.png");
+  }
+  .product6{
+    background-size: cover;
+    background-repeat:no-repeat ;
+    grid-template-columns: 1fr;
+    --image-url:url("./zurag//padutas.png");
   }
 }
 
 @media only screen and (max-width: 481px){
 .iphone-pro{
-  background: url(./zurag/Figure1.png);
+  background: url(./zurag/Figure@2x.png);
   background-position: center;   
   background-repeat: no-repeat;
-                                                          ;
+  width: 100vw; 
+  padding-top: 450px ;                                                      ;
 }
 .iphone-pro h2{
   font-size: 30px;
-  transform: translate(0px, 300px);
+  transform: translate(0px, 200px);
 }
 .iphone-pro p{
   font-size: 20px;
-  transform: translate(0px, 300px);
+  transform: translate(0px, 200px);
 
 }
 .child1{
-  transform: translate(0px, 300px);
+  transform: translate(0px, 200px);
   padding: 5px;
 }
 .child2{
-  transform: translate(0px, 300px);
+  transform: translate(0px, 200px);
   padding: 5px;
  
+}
+.iphone16{
+  width: 100vw;
+  background: url(./zurag/Figure4.png);
+  background-repeat: no-repeat;
+  padding-bottom: 500px;
+  background-size:cover;
+  margin-inline: auto;
+}
+
+.products{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 500px);
 }
 }
