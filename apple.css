@@ -139,10 +139,11 @@
   padding: 10px 0px;
 }
 .learn-more {
-  background-color: blue;
+  background-color: #0071E3;
   padding: 5px;
   color: white;
   border-radius: 40px;
+  border: none;
   padding: 10px 20px;
   font-size: 15px;
 }
@@ -153,12 +154,14 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 .buy {
   color: blue;
   border: 2px solid blue;
   border-radius: 40px;
   padding: 10px 20px;
   font-size: 15px;
+
 }
 .gift h2 {
   font-size: 52px;
@@ -172,13 +175,6 @@
   background-color: blue;
   padding: 5px;
   font-size: medium;
-}
-.products {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 580px);
-  gap: 10px;
-  margin-top: 10px;
 }
 
 :root {
@@ -299,36 +295,124 @@
   flex-shrink: 0;
   flex-shrink: 0;
 }
+ 
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 580px);
+  gap: 10px;
+  margin-top: 10px;
+}
+
 .product1 {
   background-image: var(--image-url);
   background-position: center;
+  text-align: center;
+
 }
+
+.product1 img{
+  padding-top: 20px;
+}
+
+.product1-child {
+  padding-top: 20px;
+}
+
+
+.product1-child p{
+ padding-top: 400px;
+ background-image: linear-gradient(to right, blue, green, orange);
+ background-clip: text;
+ color: transparent;
+ width: max-content;
+ margin-inline: auto;
+}
+
+
 .product2 {
   background-position: center;
   --image-url: url("./zurag/huuhen.png");
   background-image: var(--image-url);
+  text-align: center;
+  padding-top: 400px;
+}
+
+.product2 h2{
+  color: white;
+}
+.product2 p{
+  color: white;
 }
 .product3 {
   background-position: center;
   --image-url: url("./zurag/tsag.png");
   background-image: var(--image-url);
+  text-align: center;
+}
+
+.product3 p{
+  color: #1D1D1F;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.product3 img{
+  padding-top: 20px;
 }
 .product4 {
   background-position: center;
   --image-url: url("./zurag/notebook.png");
   background-image: var(--image-url);
+  text-align: center;
+}
+
+.product4 h2{
+  padding-top: 20px;
+}
+.product4 p{
+  color: #1D1D1F;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
 }
 .product5 {
   background-position: center;
   --image-url: url("./zurag/phone.png");
+   background-image: var(--image-url);
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
-  background-image: var(--image-url);
+.product5 button{
+ padding-top: 10px;
+ border-radius: 40px;
+ background-color: #0071E3;
+ color: white;
+ padding: 5px 20px;
+ border: solid #0071E3;
+ margin-top: 20px;
+}
+
+.product5 img{
+padding-top: 50px;
+
 }
 .product6 {
   background-position: center;
-  --image-url: url("./zurag//card.png");
-
+   text-align: center;
   background-image: var(--image-url);
+  --image-url: url(./zurag/card1.png);
+}
+.product6 img{
+ padding-top: 50px;
+ 
+}
+.product6 p{
+ padding-bottom: 10px;
+ 
 }
 
 @media only screen and (max-width: 768px) {
