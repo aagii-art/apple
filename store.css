@@ -4,15 +4,18 @@
   box-sizing: border-box;
   font-family: "inter", serif;
 }
+:root {
+  --latest-photo: url(./zurag/l1.png);
+}
 
 .header {
   display: flex;
   justify-content: center;
-  column-gap: 10px;
-  font: 12px inter, serif;
+  column-gap: 20px;
+  font: 18px inter, serif;
   position: fixed;
-  background-color: white;
   width: 100vw;
+  background-color: #f5f5f7;
 }
 .header-apple {
   height: 44px;
@@ -20,7 +23,7 @@
 }
 .navigation {
   margin-top: 15px;
-  column-gap: 10px;
+  column-gap: 20px;
   display: flex;
 }
 
@@ -32,6 +35,7 @@
 .header-text {
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 10px;
 }
 .center {
   display: flex;
@@ -44,23 +48,37 @@
 .menu {
   display: none;
 }
-.solongo{
+.solongo {
+  background: url(./zurag/11.png) center/cover no-repeat;
   width: 100vw;
-  height: 40px;
+  height: 88px;
+}
+.store {
+  background-color: #f5f5f7;
+  width: 100vw;
 }
 .store-deed {
   display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+.store-deed2 {
+  font-size: 44px;
+  color: #6e6e73;
+  font-weight: 700;
+  padding-right: 820px;
 }
 .store-deed1 {
-  background-image: linear-gradient(to right, #0090F7 , #BA62FC , #F2416B );
+  font-weight: 700;
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
   background-clip: text;
   color: transparent;
-  padding-right: 10px;
+  padding-right: 20px;
   font-size: 44px;
 }
 .store-deed3 {
   display: flex;
-  padding-left: 300px;
+  padding-right: 50px;
 }
 
 .store-deed3 img {
@@ -71,6 +89,8 @@
   display: flex;
   column-gap: 12px;
   margin-top: 50px;
+  width: 100vw;
+  justify-content: center;
 }
 
 .product11 {
@@ -130,4 +150,130 @@
   background-image: url(./zurag/p10.png);
   height: 146px;
   width: 136px;
+}
+.latest {
+  background-color: #f5f5f7;
+  width: 100vw;
+  padding-left: 600px;
+}
+.latest > p {
+  padding-block: 30px 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #6e6e73;
+}
+.latest span {
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  color: transparent;
+}
+.latest-product {
+  display: flex;
+  overflow-x: scroll;
+  gap: 5px;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+.latest-product div {
+  background: var(--latest-photo) center/cover;
+  width: 480px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  scroll-snap-align: start;
+}
+.latest-product1 {
+  padding: 20px 0px 0px 20px;
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/l1.png);
+}
+.latest-product1 p {
+  font-size: 12px;
+  color: #b64400;
+}
+.latest-product1 h2 {
+  font-family: "inter", serif;
+
+  font-size: 26px;
+  color: #1d1d1f;
+}
+.latest-product1 :last-child {
+  font-size: 18px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.latest-product2 {
+  padding: 10px 0px 0px 10px;
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/l2.png);
+}
+.latest-product2 h2 {
+  font-size: 26px;
+  color: #1d1d1f;
+}
+
+.latest-product3 {
+  padding: 20px 0px 0px 20px;
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/l3.png);
+}
+.latest-product3 p {
+  font-size: 12px;
+  color: #b64400;
+}
+.latest-product3 h2 {
+  font-size: 26px;
+  color: #1d1d1f;
+}
+
+.latest-product3 :last-child {
+  font-size: 18px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+
+.latest-product4 {
+  padding: 20px 0px 0px 20px;
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/l4.jpeg);
+}
+.latest-product4 p {
+  font-size: 12px;
+  color: #b64400;
+}
+.latest-product4 h2 {
+  font-size: 26px;
+  color: #1d1d1f;
+}
+
+.latest-product4 :last-child {
+  padding: 20px 0px 0px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+
+.latest-product5 {
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/p5.png);
+}
+.latest-product6 {
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/p6.png);
+}
+.latest-product7 {
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/p7.png);
+}
+.latest-product8 {
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/p8.png);
+}
+.latest-product9 {
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/p9.png);
+}
+.latest-product10 {
+  background: var(--latest-photo);
+  --latest-photo: url(./zurag/p10.png);
 }
