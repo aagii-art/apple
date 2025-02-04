@@ -195,12 +195,15 @@
   overflow-x: scroll;
   column-gap: 10px;
   margin: 10px 0px 10px;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
 }
 .scrollzurag1 {
   background: var(--scroll) center/cover no-repeat;
   flex-shrink: 0;
   height: 668px;
   width: 1250px;
+  scroll-snap-align: center;
 }
 
 .scrollzurag2 {
@@ -209,6 +212,7 @@
   flex-shrink: 0;
   height: 668px;
   width: 1250px;
+  scroll-snap-align:center ;
 }
 .scrollzurag3 {
   background: var(--scroll) center/cover no-repeat;
@@ -216,6 +220,23 @@
   flex-shrink: 0;
   height: 668px;
   width: 1250px;
+  scroll-snap-align: center;
+}
+
+.a-tag{
+  width: 100vw;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+  padding-bottom: 5px;
+}
+.a-tag a{
+  height: 8px;
+  width: 8px;
+  background-color:#0000006B ;
+  border-radius: 40px;
 }
 
 .scrollsmall {
