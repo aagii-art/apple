@@ -62,7 +62,6 @@
   width: 100vw;
   justify-content: space-between;
   padding-left: 30px;
-
 }
 .store-deed2 {
   font-size: 44px;
@@ -92,7 +91,7 @@
   column-gap: 12px;
   margin-top: 50px;
   width: 100vw;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 .product11 {
@@ -194,7 +193,7 @@
   color: #b64400;
 }
 
-.latest-product1 :first-child{
+.latest-product1 :first-child {
   padding-top: 20px;
 }
 .latest-product1 h2 {
@@ -284,80 +283,286 @@
   --latest-photo: url(./zurag/p10.png);
 }
 
-.person{
-  background-color:  #f5f5f7;
+.person {
+  background-color: #f5f5f7;
   width: 100vw;
   padding-left: 30px;
 }
-.person > p{
+.person > p {
   font-size: 24px;
   font-weight: 700;
-  color: #6E6E73;
+  color: #6e6e73;
   padding-left: 30px;
   padding-block: 30px 10px;
 }
-.person span{
-  background-image: linear-gradient(to right, #0090F7, #BA62FC, #F2416B);
+.person span {
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
   background-clip: text;
   color: transparent;
 }
-.person-products{
+.person-products {
   display: flex;
   gap: 5px;
   overflow-x: scroll;
   padding-bottom: 30px;
 }
-.person-product1{
+.person-product1 {
   flex-shrink: 0;
   height: 500px;
   width: 400px;
   background: url(./zurag/person1.png);
 }
-.person-product1 h2{
+.person-product1 h2 {
   flex-shrink: 0;
-  
+
   width: 250px;
   height: 66px;
   font-size: 26px;
   padding: 30px 0px 0px 53px;
 }
-.person-product2{
+.person-product2 {
   height: 500px;
   width: 313px;
   flex-shrink: 0;
   background: url(./zurag/person2.png);
 }
-.person-product3{
-  background: url(./zurag/person3.png) ;
+.person-product3 {
+  background: url(./zurag/person3.png);
   height: 500px;
   width: 313px;
   flex-shrink: 0;
-
 }
-.person-product4{
+.person-product4 {
   background: url(./zurag/person4.png);
   height: 500px;
   width: 313px;
   flex-shrink: 0;
-
 }
-.person-product5{
-  background: url(./zurag/person5.png) ;
+.person-product5 {
+  background: url(./zurag/person5.png);
   height: 500px;
   width: 313px;
   flex-shrink: 0;
-
 }
-.person-product6{
-  background: url(./zurag/mr-bean.jpeg) ;
+.person-product6 {
+  background: url(./zurag/mr-bean.jpeg);
   height: 500px;
   width: 313px;
   flex-shrink: 0;
-
 }
-.person-products div{
+.person-products div {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 40px;
+}
+.holiday {
+  padding: 30px 0px 0px 15px;
+  background-color: #e7efef82;
+}
+.holiday > p {
+  font-size: 24px;
+  color: #6e6e73;
+  font-weight: 700;
+}
+.holiday span {
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  color: transparent;
+}
+.holiday-products {
+  display: flex;
+  padding-top: 10px;
+  gap: 19px;
+  overflow-x: scroll;
+}
+.holiday-product1 {
+  background: url(./zurag/holiday1.png) center/cover no-repeat;
+}
+.holiday-product1 h2 {
+  font-size: 26px;
+  color: #1d1d1f;
+  font-weight: 700;
+  width: 300px;
+  padding: 54px 0px 0px 30px;
+}
+.holiday-products div :first-child {
+  margin: 71px 41.5px 0px 41.5px;
+  width: 230px;
+  height: 230px;
+}
+
+.holiday-products div {
+  width: 313px;
+  height: 500px;
+  border-radius: 40px;
+  flex-shrink: 0;
+  background-color: white;
+}
+.holiday-product-photo {
+  width: 253px;
+  height: 48px;
+  padding-left: 50px;
+}
+.holiday-product2 {
+  padding-left: 10px;
+}
+.holiday-product2 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product2 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product2 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.holiday-product3 {
+  padding-left: 10px;
+}
+.holiday-product3 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product3 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product3 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.holiday-product4 {
+  padding-left: 10px;
+}
+.holiday-product4 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product4 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product4 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.holiday-product5 {
+  padding-left: 10px;
+}
+.holiday-product5 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product5 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product5 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.holiday-product6 {
+  padding-left: 10px;
+}
+.holiday-product6 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product6 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product6 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.holiday-product7 {
+  padding-left: 10px;
+}
+.holiday-product7 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product7 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product7 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.holiday-product8 {
+  padding-left: 10px;
+}
+.holiday-product8 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product8 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product8 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.holiday-product9 {
+  padding-left: 10px;
+}
+.holiday-product9 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product9 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product9 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.holiday-product10 {
+  padding-left: 10px;
+}
+.holiday-product10 p {
+  color: #b64400;
+  font-size: 12px;
+}
+.holiday-product10 h4 {
+  padding-block: 10px 20px;
+  font-size: 18px;
+  color: #1d1d1f;
+  width: 257px;
+}
+.holiday-product10 h6 {
+  font-size: 14px;
+  color: #1d1d1f;
+  font-weight: 400;
 }
