@@ -566,3 +566,269 @@
   color: #1d1d1f;
   font-weight: 400;
 }
+
+.only {
+  padding: 30px 0px 0px 30px;
+  background-color: #e7efef82;
+}
+.only > p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6e6e73;
+  padding-bottom: 10px;
+}
+
+.only span {
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  color: transparent;
+}
+.only-products {
+  display: flex;
+  gap: 20px;
+}
+.only-products > div {
+  height: 500px;
+  border-radius: 40px;
+}
+.only-products > p {
+}
+.only-product1 {
+  background: url(./zurag/only1.png) center/cover no-repeat;
+  width: 480px;
+}
+.only-product1 p {
+  font-size: 26px;
+  color: #1d1d1f;
+  font-weight: 700;
+  width: 305px;
+  padding: 50px 0px 0px 30px;
+}
+
+.only-product2 {
+  display: grid;
+  grid-template-columns: 313px 313px;
+  grid-template-rows: 240px 240px;
+  gap: 20px;
+}
+.only-product2 div {
+  background-color: white;
+  border-radius: 40px;
+}
+.only-product2 p {
+  width: 238px;
+  padding: 82px 0px 0px 30px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #1d1d1f;
+}
+.only-product3 {
+  background: url(./zurag/only3.png);
+  width: 480px;
+}
+.only-product3 h6 {
+  padding: 31px 0px 0px 30px;
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+}
+.only-product3 p {
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  width: 330px;
+  color: #1d1d1f;
+}
+.only-product4 h6 {
+  padding: 31px 0px 0px 30px;
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+}
+.only-product4 p {
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: 700;
+  width: 330px;
+  color: #1d1d1f;
+}
+.only-product4 {
+  background: url(./zurag/only4.jpeg) center/cover no-repeat;
+  width: 480px;
+}
+.apple {
+  padding: 30px 0px 0px 30px;
+  background-color: #e7efef82;
+}
+
+.apple > p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6e6e73;
+  padding-bottom: 10px;
+}
+
+.apple span {
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  color: transparent;
+}
+
+.apple-products {
+  display: flex;
+  gap: 20px;
+}
+.apple-products div {
+  padding: 20px 0px 0px 20px;
+  border-radius: 40px;
+  width: 480px;
+  height: 500px;
+}
+.apple-product1 {
+  background: white url(./zurag/apple1.png) center/cover no-repeat;
+}
+.apple-product1 h6 {
+  color: #6e6e73;
+  font-size: 12px;
+}
+.apple-product1 h2 {
+  width: 275px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.apple-product1 p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #1d1d1f;
+}
+.apple-product2 {
+  color: white;
+  background: url(./zurag/apple2.png) center/cover no-repeat;
+}
+.apple-product3 {
+  background: url(./zurag/apple3.png) center/cover no-repeat;
+}
+.apple-product3 h2 {
+  width: 250px;
+  height: 66px;
+}
+.apple-product4 {
+  background: url(./zurag/apple4.jpeg) center/cover no-repeat;
+}
+.apple-product4 h6 {
+  color: #6e6e73;
+  font-size: 12px;
+}
+
+.special {
+  padding: 30px 0px 0px 30px;
+  background-color: #e7efef82;
+}
+.special > p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6e6e73;
+  padding-bottom: 10px;
+}
+
+.special span {
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  color: transparent;
+}
+
+.special-products {
+  display: flex;
+  gap: 20px;
+}
+.special-products div {
+  padding: 20px 0px 0px 20px;
+  border-radius: 40px;
+  width: 400px;
+  height: 500px;
+}
+
+.special1 {
+  background: url(./zurag/special1.png) center/cover no-repeat;
+}
+.special1 h6 {
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+}
+.special1 h2 {
+  padding: 10px 0px 10px 0px;
+  font-size: 26px;
+}
+.special1 p {
+  font-size: 17px;
+  font-weight: 400;
+  width: 320px;
+}
+.special2 {
+  background: url(./zurag/special2.png) center/cover no-repeat;
+}
+.special2 h6 {
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+}
+.special2 h2 {
+  padding: 10px 0px 10px 0px;
+  font-size: 26px;
+}
+.special3 {
+  background: url(./zurag/special3.png) center/cover no-repeat;
+}
+.special3 h6 {
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+}
+.special3 h2 {
+  padding: 10px 0px 10px 0px;
+  font-size: 26px;
+}
+.special4 {
+  background: url(./zurag/special1.png) center/cover no-repeat;
+}
+.special4 h6 {
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+}
+.special4 h2 {
+  padding: 10px 0px 10px 0px;
+  font-size: 26px;
+}
+.special5 {
+  background: url(./zurag/special1.png) center/cover no-repeat;
+}
+.special5 h6 {
+  color: #6e6e73;
+  font-size: 12px;
+  font-weight: 700;
+}
+.special5 h2 {
+  padding: 10px 0px 10px 0px;
+  font-size: 26px;
+}
+.link {
+  background-color: #e7efef82;
+
+  padding: 30px 0px 20px 30px;
+}
+.footer {
+  padding-left: 30px;
+  background-color: #e7efef82;
+  gap: 20px;
+}
+.footer span {
+  border-radius: 50px;
+  border-width: 30px;
+  padding: 5px;
+  border: 1px solid;
+  font-size: 14px;
+  color: #1d1d1f;
+}
